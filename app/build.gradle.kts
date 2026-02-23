@@ -135,7 +135,6 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.6.0")
 
     // ── Adaptive Layout (suporte a tablets) ──────────────────────────────────
-    implementation("androidx.compose.material3:material3-adaptive:1.0.0-alpha12")
     implementation("androidx.compose.material3:material3-window-size-class:1.2.1")
 
     // ── DataStore (preferências de configurações) ────────────────────────────
