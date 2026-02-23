@@ -6,5 +6,5 @@
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
     </style>
 
-    <style name="Theme.Duda.Main" parent="Theme.Material3.DayNight.NoActionBar" />
+    <style name="Theme.Duda.main" parent="Theme.Material3.DayNight">
 </resources>
