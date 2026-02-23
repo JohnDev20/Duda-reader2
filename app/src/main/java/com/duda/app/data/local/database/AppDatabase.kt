@@ -1,5 +1,6 @@
 package com.duda.app.data.local.database
 
+import com.duda.app.data.local.database.RoomConverters
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
