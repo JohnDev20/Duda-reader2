@@ -23,7 +23,7 @@ import com.duda.app.data.local.migration.Migrations
         BookTagCrossRef::class
     ],
     version = 1,
-    exportSchema = true
+    exportSchema = false
 )
 @TypeConverters(RoomConverters::class)
 abstract class AppDatabase : RoomDatabase() {
