@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Tema do Splash (AndroidX Core SplashScreen) -->
     <style name="Theme.Duda" parent="Theme.SplashScreen">
         <item name="postSplashScreenTheme">@style/Theme.Duda.Main</item>
         <item name="windowSplashScreenBackground">@color/splash_background</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
     </style>
 
-    <style name="Theme.Duda.main" parent="Theme.Material3.DayNight">
+    <!-- Tema principal do app -->
+    <style name="Theme.Duda.Main" parent="Theme.Material3.DayNight">
+        <!-- opcional: status bar transparente -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
 </resources>
